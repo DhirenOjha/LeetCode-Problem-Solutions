@@ -9,6 +9,8 @@ class Solution {
                 icec++;
                 coins=coins-costs[i];
             }
+            else
+                break;
         }
         return icec;
     }
