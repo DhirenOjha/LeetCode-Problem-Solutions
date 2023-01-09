@@ -13,8 +13,6 @@ class Solution {
                     slope=((float)(points[i][1]-points[j][1])/(float)(points[i][0]-points[j][0]));
                 if(slope==-0.0)
                     slope=(float)0.0;
-                // if(slope==-infinity)
-                //     slope=(float)infinity;
                 System.out.println(slope+" "+i);
                 // if(!map.containsKey(slope))
                 // {
