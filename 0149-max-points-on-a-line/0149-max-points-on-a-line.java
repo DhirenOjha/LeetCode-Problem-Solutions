@@ -23,7 +23,6 @@ class Solution {
                 map.put(slope,map.getOrDefault(slope,0)+1);
                 max=Math.max(max,map.get(slope));
             }
-        // System.out.println(map);
         }
         return max+1;
     }
