@@ -10,7 +10,6 @@ class Solution {
                 arr.add(mat[i][j]);
             }
         }
-        System.out.println(arr);
         int s=0,e=arr.size()-1;
         while(s<=e)
         {
@@ -23,17 +22,5 @@ class Solution {
                 return true;
         }
         return false;
-        
-        // int i=0,j=mat[0].length-1;
-        // while(i<mat.length&&j>=0)
-        // {
-        //     if(mat[i][j]>target)
-        //         j--;
-        //     else if(mat[i][j]<target)
-        //         i++;
-        //     else
-        //         return true;
-        // }
-        // return false;
     }
 }
